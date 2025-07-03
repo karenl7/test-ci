@@ -9,6 +9,9 @@ class Test:
     def add(self):
         return self.x + self.y
 
+    def subtract(self):
+        return self.x - self.y
+
 # Create an instance of Test
 test_instance = Test()
 
