@@ -6,6 +6,9 @@ class Test
     def __str__(self):
         return f"Test(x={self.x}, y={self.y})"
 
+    def add(self):
+        return self.x + self.y
+
 # Create an instance of Test
 test_instance = Test()
 
