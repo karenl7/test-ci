@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/testci  # Replace testci with your PyPI project name
+      url: https://pypi.org/p/karenl7-test-ci  # Replace karenl7-test-ci with your PyPI project name
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -59,7 +59,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/testci
+      url: https://test.pypi.org/p/karenl7-test-ci
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
